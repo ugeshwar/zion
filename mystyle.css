@@ -1,0 +1,38 @@
+body
+		{
+			background: url(bg.jpg);
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40em;
+			//border: solid white 2px;
+			margin-top: 300px;
+			font-family: vivaldi;
+			font-size: 30px;
+			text-align: center;
+		}
+		input
+		{
+			padding: 5px;
+			font-family: vivaldi;
+			font-size: 25px;
+		}
+		::-webkit-input-placeholder 
+		{
+			text-align: center;
+			font-family: vivaldi;
+			font-size:20px;
+		}
+		button
+		{
+			padding: 20px 40px 20px 40px;
+			background: black;
+			color:white;
+			font-family: vivaldi;
+			font-size: 40px;
+			border: black;
+		}
+		button:hover
+		{
+			background: grey;
+		}
